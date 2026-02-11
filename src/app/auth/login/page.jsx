@@ -22,7 +22,7 @@ function LoginPage() {
       redirect: false,
     });
 
-    console.log(res)
+    console.log("res", res.email)
     if (res.error) {
       setError(res.error)
     } else {
